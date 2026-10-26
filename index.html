@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Nexus Marketplace | Anuncie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="auth-layout">
+        <div class="glass-form-card">
+            <h2>Novo Anúncio</h2>
+            <p class="subtitle">Publique seu item para milhares de compradores.</p>
+            
+            <form id="ad-form">
+                <div class="input-group">
+                    <input type="text" id="title" placeholder="Nome do Produto" required>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="price" placeholder="Preço (Ex: R$ 1.200)" required>
+                </div>
+                <button type="submit" class="btn-glow">Publicar Agora</button>
+            </form>
+
+            <div class="feed-section">
+                <h3>Anúncios Ativos</h3>
+                <div id="ads-list"></div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
